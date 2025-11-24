@@ -35,7 +35,7 @@ const List = () => {
         </h1>
         <div className="p-10 flex mt-10 justify-center gap-4 bg-amber-100 text-black rounded-4xl">
           <input
-            className="flex items-center justify-center bg-black text-white rounded-2xl w-80 h-10 p-4"
+            className="flex items-center justify-center bg-gray-600 border-none outline-none text-white rounded-2xl w-80 h-10 p-4"
             type="text"
             value={inputValue}
             onChange={(e) => {
